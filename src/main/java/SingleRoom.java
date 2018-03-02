@@ -9,4 +9,6 @@ public class SingleRoom extends PaidRoom{
         this.inhabitance = new ArrayList<>();
     }
 
+
+
 }
