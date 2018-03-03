@@ -52,4 +52,11 @@ public class SingleRoomTest {
         assertEquals(56.78, singleRoom.getPrice(), 0.01);
     }
 
+    @Test
+    public void getGuestName(){
+        singleRoom.addGuestToRoom(guest);
+        assertEquals("Dave", singleRoom.getGuestName(0));
+
+    }
+
 }

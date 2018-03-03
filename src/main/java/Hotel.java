@@ -47,6 +47,12 @@ public class Hotel extends Room{
 
     }
 
-    
+//    public int checkGuestsRoom(int index, Guest guest){
+//        for (SingleRoom room: singles){
+//            if(room.getGuestName(index) == guest.getName()){
+//                room.getRoomNumber();
+//            }
+//        } return 1;
+//    }
 
 }

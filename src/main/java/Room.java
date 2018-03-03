@@ -33,4 +33,11 @@ public abstract class Room {
     public String getName() {
         return name;
     }
+
+    public String getGuestName(int index){
+        Guest result =  this.inhabitance.get(0);
+        return result.getName();
+    }
+
+
 }
